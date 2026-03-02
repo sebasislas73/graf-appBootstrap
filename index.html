@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card Design</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="assets/img/redes.jpg">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        html, body{
+            height:100%;
+            margin:0;
+        }
+
+        body{
+            background-color:#f0f0f0;
+            display:flex;
+            flex-direction:column;
+        }
+
+        .header{
+            background-color:#1e66dc;
+            color:white;
+            padding:20px;
+            text-align:center;
+            font-weight:bold;
+            font-size:24px;
+        }
+
+        .content{
+            flex:1;
+        }
+
+        .card{
+            border:none;
+            border-radius:20px;
+            padding:20px;
+        }
+
+        .profile-img{
+            width:120px;
+            height:120px;
+            object-fit:cover;
+            border-radius:50%;
+            margin:auto;
+        }
+
+        .card-body{
+            text-align:center;
+        }
+
+        .social-icons i{
+            margin:5px;
+            font-size:18px;
+            cursor:pointer;
+        }
+
+        .footer{
+            background-color:#6c757d;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="header">
+    Profile Card Design
+</div>
+
+<div class="content">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="assets/img/usuario1.jpg" class="profile-img">
+                    <div class="card-body">
+                        <h5>Person One</h5>
+                        <p class="text-muted">
+                            Esta es la persona número uno, para revisar la tarjeta de información y la foto del mismo.
+                            Revisar el uso de estilos en CSS y las imágenes favicon.
+                        </p>
+                        <div class="social-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="assets/img/usuario2.jpg" class="profile-img">
+                    <div class="card-body">
+                        <h5>Person Two</h5>
+                        <p class="text-muted">
+                            Esta es la persona número dos, para revisar la tarjeta de información y la foto del mismo.
+                            Revisar el uso de estilos en CSS y las imágenes favicon.
+                        </p>
+                        <div class="social-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="assets/img/usuario3.jpg" class="profile-img">
+                    <div class="card-body">
+                        <h5>Person Three</h5>
+                        <p class="text-muted">
+                            Esta es la persona número tres, para revisar la tarjeta de información y la foto del mismo.
+                            Revisar el uso de estilos en CSS y las imágenes favicon.
+                        </p>
+                        <div class="social-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    HTML CSS BOOTSTRAP
+</div>
+
+</body>
+</html>
